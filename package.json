@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-audentio",
+  "version": "1.0.0",
+  "description": "Audentio Eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Audentio/eslint-config-audentio.git"
+  },
+  "author": "Audentio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Audentio/eslint-config-audentio/issues"
+  },
+  "homepage": "https://github.com/Audentio/eslint-config-audentio#readme"
+}
