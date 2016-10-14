@@ -34,5 +34,6 @@ module.exports = {
         'react/jsx-pascal-case': 'off',
         'newline-per-chained-call': 'off',
         'react/prop-types': 'off',
+        'guard-for-in': 'off',
     }
 };
