@@ -9,7 +9,9 @@ module.exports = {
         'node': true,
     },
     'rules': {
+        'arrow-parens': 'off',
         'max-len': ['error', 400],
+        ''
         'camelcase': ['off', {properties: 'never'}],
         'no-underscore-dangle': ['off', { 'allow': [] }],
         'no-restricted-syntax': [
