@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-audentio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Audentio Eslint config",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com/Audentio/eslint-config-audentio.git"
+    "url": "https://github.com/Audentio/eslint-config-audentio"
   },
   "author": "Audentio",
   "license": "ISC",
