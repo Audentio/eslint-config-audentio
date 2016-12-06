@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-audentio",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Audentio Eslint config",
   "main": "index.js",
   "repository": {
@@ -12,5 +12,11 @@
   "bugs": {
     "url": "https://github.com/Audentio/eslint-config-audentio/issues"
   },
-  "homepage": "https://github.com/Audentio/eslint-config-audentio#readme"
+  "homepage": "https://github.com/Audentio/eslint-config-audentio#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.1",
+    "eslint-plugin-react": "^6.8.0"
+  }
 }

@@ -9,7 +9,6 @@ module.exports = {
         'node': true,
     },
     'rules': {
-        'arrow-parens': 'off',
         'max-len': ['error', 400],
         'camelcase': ['off', {properties: 'never'}],
         'no-underscore-dangle': ['off', { 'allow': [] }],
@@ -37,5 +36,10 @@ module.exports = {
         'newline-per-chained-call': 'off',
         'react/prop-types': 'off',
         'guard-for-in': 'off',
+        "jsx-a11y/no-static-element-interactions": ["off"],
+        "react/no-unused-prop-types": ["off"],
+        "no-plusplus": ["off"],
+        "arrow-parens": ["off"],
+        "react/no-unescaped-entities": ["off"],
     }
 };
