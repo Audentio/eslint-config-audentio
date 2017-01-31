@@ -26,7 +26,7 @@ module.exports = {
         'prefer-template': ['off'],
         'no-prototype-builtins': ['off'],
 
-        'react/sort-comp': {
+        'react/sort-comp': [1, {
             order: [
                 'static-methods',
                 'lifecycle',
