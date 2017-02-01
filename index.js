@@ -56,7 +56,7 @@ module.exports = {
                     'componentWillUnmount'
                 ],
             },
-        },
+        }],
         'react/no-unescaped-entities': ['off'],
         'react/prop-types': 'off',
         'react/forbid-prop-types': ['off'],
