@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-audentio",
+  "name": "@audentio/eslint-config-audentio",
   "version": "1.0.9",
   "description": "Audentio ESlint config",
   "main": "index.js",
