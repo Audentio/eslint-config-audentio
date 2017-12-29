@@ -1,31 +1,44 @@
 module.exports = {
     'extends': 'airbnb',
     'parser': 'babel-eslint',
-    'ecmaFeatures': {
-        'classes': true,
-    },
+    'plugins': [
+        'jest',
+    ],
     'env': {
         'node': true,
-        'browser': true,
+        'jest/globals': true,
+    },
+    'globals': {
+        'window': true,
+        'document': true,
+        '__DEV__': true,
+        '__BROWSER__': true,
     },
     'rules': {
-        'import/no-unresolved': ['off'],
-        'no-underscore-dangle': ['off'],
-        'camelcase': ['off'],
-        'max-len': 'off',
+        'object-curly-newline': 'off',
+        'prefer-destructuring': 'off',
+        'class-methods-use-this': 'off',
+        'comma-dangle': ['error', {
+            'arrays': 'always-multiline',
+            'objects': 'always-multiline',
+            'functions': 'ignore',
+        }],
+        'function-paren-newline': ['error', 'consistent'],
+        'import/no-unresolved': 'off',
+        'no-underscore-dangle': 'off',
+        'camelcase': 'off',
+        'max-len': ['error', { code: 100 }],
         'no-restricted-syntax': [
             2,
             'DebuggerStatement',
             'LabeledStatement',
             'WithStatement',
         ],
-        'no-trailing-spaces': ['off'],
         'indent': ['error', 4],
         'import/extensions': ['off'],
         'import/no-extraneous-dependencies': ['off'],
         'prefer-template': ['off'],
         'no-prototype-builtins': ['off'],
-
         'react/sort-comp': [1, {
             order: [
                 'static-methods',
@@ -66,7 +79,6 @@ module.exports = {
         'react/no-unused-prop-types': ['off'],
         'react/prefer-stateless-function': 'off',
         'jsx-a11y/no-static-element-interactions': ['off'],
-
         'guard-for-in': 'off',
         'no-plusplus': ['off'],
         'arrow-parens': ['off'],
