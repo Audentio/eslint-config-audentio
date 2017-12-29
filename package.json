@@ -1,7 +1,7 @@
 {
   "name": "@audentio/eslint-config-standard",
   "version": "1.0.9",
-  "description": "Standrd ESlint config for Audentio projects",
+  "description": "Standrd ESLint config for Audentio projects",
   "main": "index.js",
   "repository": {
     "type": "git",
