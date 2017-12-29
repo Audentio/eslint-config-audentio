@@ -27,7 +27,7 @@ module.exports = {
         'import/no-unresolved': 'off',
         'no-underscore-dangle': 'off',
         'camelcase': 'off',
-        'max-len': ['error', { code: 100 }],
+        'max-len': ['error', { code: 150 }],
         'no-restricted-syntax': [
             2,
             'DebuggerStatement',
