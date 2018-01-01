@@ -15,6 +15,7 @@ module.exports = {
         '__BROWSER__': true,
     },
     'rules': {
+        'no-trailing-spaces': 'off',
         'object-curly-newline': 'off',
         'prefer-destructuring': 'off',
         'class-methods-use-this': 'off',
@@ -27,7 +28,7 @@ module.exports = {
         'import/no-unresolved': 'off',
         'no-underscore-dangle': 'off',
         'camelcase': 'off',
-        'max-len': ['error', { code: 150 }],
+        'max-len': 'off',
         'no-restricted-syntax': [
             2,
             'DebuggerStatement',
