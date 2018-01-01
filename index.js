@@ -42,6 +42,7 @@ module.exports = {
         'no-prototype-builtins': ['off'],
         'react/sort-comp': [1, {
             order: [
+                'type-annotations',
                 'static-methods',
                 'lifecycle',
                 'everything-else',
