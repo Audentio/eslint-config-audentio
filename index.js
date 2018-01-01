@@ -24,7 +24,7 @@ module.exports = {
             'objects': 'always-multiline',
             'functions': 'ignore',
         }],
-        'function-paren-newline': ['error', 'consistent'],
+        'function-paren-newline': 'off',
         'import/no-unresolved': 'off',
         'no-underscore-dangle': 'off',
         'camelcase': 'off',
