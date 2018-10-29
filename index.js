@@ -23,6 +23,7 @@ module.exports = {
         "global-require": ["off"],
         "react/prop-types": ["off"],
         "react/no-array-index-key": ["off"],
+        "no-restricted-globals": ["off"],
         "react/jsx-filename-extension": [
             1,
             {
@@ -103,6 +104,7 @@ module.exports = {
         "guard-for-in": "off",
         "no-plusplus": ["off"],
         "arrow-parens": ["off"],
+        "comma-dangle": ["error", "always-multiline"]
     },
     "overrides": [
         {
