@@ -104,7 +104,8 @@ module.exports = {
         "guard-for-in": "off",
         "no-plusplus": ["off"],
         "arrow-parens": ["off"],
-        "comma-dangle": ["error", "always-multiline"]
+        "comma-dangle": ["error", "always-multiline"],
+        "react/jsx-no-bind": ["off"]
     },
     "overrides": [
         {
