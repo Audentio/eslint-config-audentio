@@ -96,6 +96,7 @@ module.exports = {
         "react/jsx-indent": ["error", 4],
         "react/jsx-pascal-case": "off",
         "react/require-default-props": "off",
+        "react/destructuring-assignment": "off",
         "react/jsx-indent-props": ["error", 4],
         "react/no-unused-prop-types": ["off"],
         "react/prefer-stateless-function": "off",
