@@ -106,7 +106,8 @@ module.exports = {
         "no-plusplus": ["off"],
         "arrow-parens": ["off"],
         "comma-dangle": ["error", "always-multiline"],
-        "react/jsx-no-bind": ["off"]
+        "react/jsx-no-bind": ["off"],
+        "max-lines": ["error", {"max": 300, "skipComments": true}]
     },
     "overrides": [
         {
