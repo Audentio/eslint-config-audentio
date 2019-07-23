@@ -111,7 +111,7 @@ module.exports = {
     },
     "overrides": [
         {
-            "parser": "typescript-eslint-parser",
+            "parser": "@typescript-eslint/parser",
             "files": ["**/*.ts", "**/*.tsx"],
             "rules": {
                 "no-unused-vars": ["off"],
