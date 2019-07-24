@@ -4,7 +4,9 @@
   "description": "Standrd ESLint config for Audentio projects",
   "main": "index.js",
   "scripts": {
-    "release": "release-it"
+    "release": "release-it",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -25,9 +27,11 @@
     "eslint-plugin-jest": "^22.13.4",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.2",
-    "typescript-eslint-parser": "^22.0.0"
+    "typescript-eslint-parser": "^22.0.0",
+    "snyk": "^1.198.0"
   },
   "devDependencies": {
     "release-it": "^12.3.3"
-  }
+  },
+  "snyk": true
 }
