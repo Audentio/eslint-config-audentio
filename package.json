@@ -19,19 +19,18 @@
   },
   "homepage": "https://github.com/Audentio/eslint-config-audentio#readme",
   "dependencies": {
-    "@typescript-eslint/parser": "^1.13.0",
-    "babel-eslint": "^10.0.2",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^17.1.1",
+    "@typescript-eslint/parser": "^2.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^22.13.4",
+    "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.2",
-    "typescript-eslint-parser": "^22.0.0",
+    "eslint-plugin-react": "^7.14.3",
     "snyk": "^1.198.0"
   },
   "devDependencies": {
-    "release-it": "^12.3.3"
+    "release-it": "^12.3.6"
   },
   "snyk": true
 }
