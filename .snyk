@@ -24,3 +24,5 @@ patch:
         patched: '2019-07-24T10:15:36.487Z'
     - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2019-07-24T10:15:36.487Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2019-09-08T07:26:40.497Z'
